@@ -1,0 +1,103 @@
+body{
+  background-image: linear-gradient(skyblue,skyblue, rgb(220, 173, 104),skyblue);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 40px;
+  background-color: rgba(53, 25, 206, 0.904);
+  border:10px solid rgb(235, 223, 225);
+}
+.decoration{
+  text-decoration: none;
+  color:white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.table{
+  border:2px solid black;
+  color:rgb(157, 44, 55);
+  font-size: 20px;
+  width:80%;
+  text-align: center;
+  margin-left: 10%;
+}
+th,td{
+  border:2px solid black;
+}
+.studentDetails{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+  
+h1{
+  text-align: center;
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+  border:2px solid white;
+  border-radius: 20px;
+  background-color: aqua;
+  height:50px;
+  width:180px;
+
+  
+}
+label{
+  color:brown;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+input{
+  border-radius: 20px;
+  height:50px;
+  width:300px;
+  
+}
+.grid{
+margin:100px 0px 0px 300px;
+}
+.inp1{
+  margin:0px 250px 80px 0px;
+}
+.inp3{
+  margin:0px 250px 0px 0px;
+}
+.btn1{
+  margin:150px 0px 0px 800px;
+}
+.btn2{
+  margin:150px 0px 0px 100px;
+}
+.div1{
+  background-color: cadetblue;
+  height:40px;
+  width:100px;
+  border-radius: 20px;
+  font-size: 18px;
+  padding-top:7.5px;
+  color:aquamarine;
+
+}
+.div2{
+  background-color: red;
+  height:40px;
+  width:100px;
+  position:relative;
+  left:180px;
+  bottom:40px;
+  border-radius: 20px;
+  font-size: 18px;
+  padding-top:7.5px;
+  color:deepskyblue;
+
+
+}
+
